@@ -1,0 +1,7 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 343" width="30" height="343">
+	<title>Rectangle</title>
+	<style>
+		.s0 { fill: #e0662b } 
+	</style>
+	<path id="Rectangle" class="s0" d="m1 1h29v342h-29z"/>
+</svg>
