@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat:wght@200..500&display=swap');
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="body">
+<link rel="stylesheet" href="codpen.css" type="text/css">
+<link rel="stylesheet" href="adaptive.css" type="text/css">
+<header class="header">
+    <div class="navbar">
+        <div class="navbar__logo">
+            <a href="#"><img src="image/svg/header/logo.svg" class="logo" alt="Логотип"></a>
+        </div>
+        <div class="navbar__menu">
+            <ul class="menu">
+                <li class="menu-item"><a class="link" href="#">Home</a></li>
+                <li class="menu-item"><a class="link" href="#">Medicine</a></li>
+                <li class="menu-item"><a class="link" href="#">Professionals</a></li>
+                <li class="menu-item"><a class="link" href="#">Contact</a></li>
+            </ul>
+            <div class="navbar__search">
+                <label class="search">
+                    <input type="search" class="field" name="query" placeholder="" required>
+                </label>
+            </div>
+        </div>
+    </div>
+</header>
+<main  class="main">
+    <div class="main__description">
+        <div class="main__description-text">
+            <h2 class="text-header">Book an appointment</h2>
+            <h3 class="text-header-second">We take care of your health</h3>
+            <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas ac cumsan lacus vel facilisis. </p>
+        </div>
+        <div class="main__image"></div>
+    </div>
+    <div class="main__form">
+            <form class="form">
+                <label class="main-name" for="main-name">
+                    <p>Name</p>
+                    <input id="main-name" type="text" class="name" required>
+                </label>
+                <label class="main-prefessional" for="main-prefessional">
+                    <p>Prefessional</p>
+                    <input id="main-prefessional" type="text" class="prefessional" required>
+                </label>
+                <label class="main-date" for="main-date">
+                    <p>Date</p>
+                    <input id="main-date" type="date" class="date" required>
+                </label>
+                <label class="main-center" for="main-center">
+                    <p>Center</p>
+                    <input id="main-center" type="text" class="center" required>
+                </label>
+                <label class="main-mail" for="main-mail">
+                    <p>Mail</p>
+                    <input id="main-mail" type="email" class="mail" required>
+                </label>
+                <div class="main-information">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus-pendisse ultrices gravida. Risus commodo viverra maecenas.
+                </div>
+                <button class="button" type="button">SEND</button>
+            </form>
+    </div>
+</main>
+</body>
+</html>
