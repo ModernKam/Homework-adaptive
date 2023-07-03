@@ -259,6 +259,11 @@ input {
     margin-top: 3rem;
 }
 
+.send__button {
+    margin-top: 2rem;
+    margin-left: 4.5rem;
+}
+
 .button {
     width: 16rem;
     height: 4rem;
@@ -268,7 +273,6 @@ input {
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
     border: none;
-    margin-top: 2rem;
 }
 
 .button:active {
